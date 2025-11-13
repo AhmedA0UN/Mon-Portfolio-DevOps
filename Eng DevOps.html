@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio DevOps - Ahmed Aoun </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script> 
+
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Dev<span>Ops</span></a>
+                <ul class="nav-links">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#apropos">À Propos</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#experience">Expérience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Ingénieur DevOps & Cloud</h1>
+                <p>Je conçois, automatise et optimise des infrastructures cloud pour accélérer le développement et améliorer la fiabilité des applications.</p>
+                <a href="#projets" class="btn">Voir mes projets</a>
+                <a href="#contact" class="btn btn-outline">Me contacter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="apropos">
+        <div class="container">
+            <div class="section-title">
+                <h2>À Propos de Moi</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E03AQFb7ivjlKETww/profile-displayphoto-shrink_400_400/B4EZadI2PHHMAg-/0/1746393064909?e=1764806400&v=beta&t=XltxYZmOufghcZwTtXdjA4ke5Gnyu6haYvJVhND-O9U" alt="Photo de profil">
+                </div>
+                <div class="about-text">
+                    <h3>Ingénieur DevOps passionné par l'automatisation et le cloud</h3>
+                    <p>Je suis un ingénieur DevOps avec 5 ans d'expérience dans la conception, l'implémentation et l'optimisation d'infrastructures cloud. Mon expertise couvre l'automatisation des déploiements, la gestion de conteneurs, l'orchestration et la surveillance des systèmes.</p>
+                    <p>Je suis passionné par l'amélioration continue des processus de développement et d'exploitation, en mettant en œuvre des pratiques DevOps pour accélérer les livraisons tout en garantissant la stabilité et la sécurité des systèmes.</p>
+                    <p>Mes compétences incluent AWS, Azure, Docker, Kubernetes, Terraform, Ansible, Jenkins, GitLab CI, Prometheus, Grafana et bien d'autres outils de la stack DevOps moderne.</p>
+                    <a href="sources/Profile .pdf" target="_blank" class="btn">Télécharger mon CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="competences">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mes Compétences</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & Infrastructure</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> AWS (EC2, S3, RDS, Lambda, EKS)</li>
+                        <li><i class="fas fa-check"></i> Azure (VM, AKS, App Services)</li>
+                        <li><i class="fas fa-check"></i> Google Cloud Platform</li>
+                        <li><i class="fas fa-check"></i> Infrastructure as Code (Terraform, CloudFormation)</li>
+                        <li><i class="fas fa-check"></i> Configuration Management (Ansible, Chef)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-code-branch"></i> CI/CD & Automatisation</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> Jenkins, GitLab CI, GitHub Actions</li>
+                        <li><i class="fas fa-check"></i> Pipeline as Code</li>
+                        <li><i class="fas fa-check"></i> Déploiement Blue-Green, Canary</li>
+                        <li><i class="fas fa-check"></i> Intégration et tests automatisés</li>
+                        <li><i class="fas fa-check"></i> Gestion des artefacts (Nexus, Artifactory)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-box"></i> Conteneurs & Orchestration</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> Docker & Docker Compose</li>
+                        <li><i class="fas fa-check"></i> Kubernetes (EKS, AKS, GKE)</li>
+                        <li><i class="fas fa-check"></i> Helm Charts</li>
+                        <li><i class="fas fa-check"></i> Service Mesh (Istio, Linkerd)</li>
+                        <li><i class="fas fa-check"></i> Sécurité des conteneurs</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> Monitoring & Observabilité</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> Prometheus & Grafana</li>
+                        <li><i class="fas fa-check"></i> ELK Stack (Elasticsearch, Logstash, Kibana)</li>
+                        <li><i class="fas fa-check"></i> Datadog, New Relic</li>
+                        <li><i class="fas fa-check"></i> Alerting & Dashboards</li>
+                        <li><i class="fas fa-check"></i> APM (Application Performance Monitoring)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projets">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mes Projets</h2>
+            </div>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80" alt="Pipeline CI/CD">
+                    </div>
+                    <div class="project-content">
+                        <h3>Pipeline CI/CD Multi-Environnements</h3>
+                        <p>Conception et implémentation d'un pipeline CI/CD complet avec Jenkins pour une application microservices, permettant des déploiements automatisés sur plusieurs environnements.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Jenkins</span>
+                            <span class="project-tag">Docker</span>
+                            <span class="project-tag">Kubernetes</span>
+                            <span class="project-tag">Helm</span>
+                        </div>
+                        <a href="#" class="btn">Voir les détails</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80" alt="Infrastructure as Code">
+                    </div>
+                    <div class="project-content">
+                        <h3>Infrastructure as Code avec Terraform</h3>
+                        <p>Développement d'une infrastructure cloud modulaire et scalable sur AWS en utilisant Terraform, avec mise en place de VPC, sécurité, et autoscaling groups.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Terraform</span>
+                            <span class="project-tag">AWS</span>
+                            <span class="project-tag">Infrastructure as Code</span>
+                            <span class="project-tag">Modules</span>
+                        </div>
+                        <a href="#" class="btn">Voir les détails</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Monitoring">
+                    </div>
+                    <div class="project-content">
+                        <h3>Plateforme de Monitoring Centralisée</h3>
+                        <p>Mise en place d'une stack de monitoring complète avec Prometheus, Grafana et Alertmanager pour surveiller l'infrastructure et les applications en temps réel.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Prometheus</span>
+                            <span class="project-tag">Grafana</span>
+                            <span class="project-tag">Monitoring</span>
+                            <span class="project-tag">Alerting</span>
+                        </div>
+                        <a href="#" class="btn">Voir les détails</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mon Expérience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Ingénieur DevOps Senior</h3>
+                        <h4>Tech Solutions SA • 2020 - Présent</h4>
+                        <p>Responsable de la conception et de l'implémentation de l'infrastructure cloud, mise en place de pipelines CI/CD, optimisation des coûts cloud et formation des équipes aux pratiques DevOps.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Ingénieur DevOps</h3>
+                        <h4>Innovate Cloud • 2018 - 2020</h4>
+                        <p>Automatisation des déploiements, containerisation d'applications legacy, mise en place de Kubernetes en production et développement de scripts d'automatisation.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Administrateur Système</h3>
+                        <h4>Data Systems • 2016 - 2018</h4>
+                        <p>Gestion de l'infrastructure on-premise, virtualisation, sauvegardes et mise en place des premiers processus d'automatisation.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Diplôme d'Ingénieur en Informatique</h3>
+                        <h4>Institut Supérieur
+                            d'Informatique et de
+                            Multimédia de Gabès • 2026 - 2030</h4>
+                        <p>Spécialisation en Systèmes Embarqué & IOT  .</p> <!-- Spécialisation en systèmes distribués et cloud computing -->
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Cycle préparatoire intégré MPI </h3>
+                        <h4>Institut Supérieur
+                            d'Informatique et de
+                            Multimédia de Gabès • 2024 - 2026</h4>
+                        <p> Une formation post-bac de deux ans qui prépare aux études d’ingénieur en " mathématique-physique-informatique ".</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Diplôme nationnal de baccalauréat </h3>
+                        <h4>Lycée Nefta • 2024 - science technique </h4>
+                        <p>Diplôme du baccalauréat national en science technique avec la montien trés bien - 16.59  .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contactez-Moi</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Localisation</h3>
+                            <p>Tunis, Tunisie</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>ahmedaoun1@outlook.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Téléphone</h3>
+                            <p>+216 99 152 499</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Site Web</h3>
+                            <p>www.devops-portfolio.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Sujet" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Votre message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="logo">Dev<span>Ops</span></a>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/ahmed-aoun/" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i>linkedin</a>
+                    <a href="sources/Profile .pdf" id="CV" target="_blank" class="social-link"><i class="fab fa-github"></i>CV</a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter">Profile</i></a>
+                    <a href="#" class="social-link"><i class="fab fa-dev"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Portfolio DevOps. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
